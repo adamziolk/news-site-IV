@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ArticleList from '../components/ArticleList/ArticleList.js'
 import { fetchArticles } from '../api/ArticlesAPI';
 
+
 class HomePage extends Component {
   state = {
     articles: []
